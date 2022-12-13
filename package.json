@@ -1,0 +1,22 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "Writting a few practical tests for JavaScript functions using the Jest library.",
+  "main": "stringLength.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nuga0909/Testing-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nuga0909/Testing-practice/issues"
+  },
+  "homepage": "https://github.com/Nuga0909/Testing-practice#readme"
+}
