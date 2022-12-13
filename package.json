@@ -9,10 +9,12 @@
   },
   "scripts": {
     "test": "jest"
-  },  "repository": {
+  },
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/Nuga0909/Testing-practice.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
