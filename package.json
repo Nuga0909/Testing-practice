@@ -2,7 +2,7 @@
   "name": "testing-practice",
   "version": "1.0.0",
   "description": "Writting a few practical tests for JavaScript functions using the Jest library.",
-  "main": "stringLength.js",
+  "main": "main.js",
   "dependencies": {},
   "devDependencies": {
     "jest": "^29.3.1"

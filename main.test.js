@@ -1,4 +1,5 @@
 const stringLength = require ('./stringLength');
+const reverseString = require('./reverseString');
 
 describe('length of strings', () => {
     test('length of "house"', () => {
@@ -11,5 +12,11 @@ describe('length of strings', () => {
 
     test('length of "aaaaaaaaaaaa"', () => {
         expect(stringLength('aaaaaaaaaaaa')).toBe('input not valid');
+    });
+});
+
+describe('reverseStrings', () => {
+    test('reverse strings 1', () => {
+        expect(reverseString('match')).toBe('hctam');
     });
 });
