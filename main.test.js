@@ -1,6 +1,8 @@
 const stringLength = require ('./stringLength');
 const reverseString = require('./reverseString');
 const calculator = require('./calculator');
+const capitalize = require('./capitalize.js');
+
 
 describe('length of strings', () => {
     test('length of "house"', () => {
@@ -38,7 +40,7 @@ describe('Addition Function Tests', () => {
     });
   });
 
-  describe('multiplication Function Tests', () => {
+describe('multiplication Function Tests', () => {
     test('multiplication of 8 & 2', () => {
       expect(calc1.multiply()).toBe(16);
     });
@@ -50,7 +52,7 @@ describe('Addition Function Tests', () => {
     });
   });
 
-  describe('division Function Tests', () => {
+describe('division Function Tests', () => {
     test('division of 8 & 2', () => {
       expect(calc1.divide()).toBe(4);
     });
@@ -62,7 +64,7 @@ describe('Addition Function Tests', () => {
     });
   });
 
-  describe('subtraction Function Tests', () => {
+describe('subtraction Function Tests', () => {
     test('subtraction of 8 & 2', () => {
       expect(calc1.subtract()).toBe(6);
     });
@@ -73,3 +75,10 @@ describe('Addition Function Tests', () => {
       expect(calc3.subtract()).toBe(15);
     });
   });
+
+
+describe('capitalize Tests', () => {
+  test('capitalize of "lives"', () => {
+    expect(capitalize('lives')).toBe('Lives');
+  });
+});
